@@ -25,7 +25,7 @@ public class ProductController {
        return productService.getProduct(productId);
     }
 
-
+   //Retornar lista de productos por categoria
     public Optional<List<Product>> getByCategory(int categoryId){
         return productService.getByCategory(categoryId);
     }

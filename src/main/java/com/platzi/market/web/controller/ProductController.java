@@ -15,7 +15,7 @@ import java.util.Optional;
 public class ProductController {
     @Autowired
     private ProductService productService;
-    //Retornar la lista de todos los productos http://localhost:9090/producto/all
+    //Retornar la lista de todos los productos http://localhost:8090//api/content/producto/all
     @GetMapping("/all")
     public List<Product> getAll(){
         return productService.getAll();
